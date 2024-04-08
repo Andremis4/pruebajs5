@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<main>
+<body>
+<h1> Conversor de Monedas </h1>
+<section>
+    <h2> Pesos Chilenos</h2>
+    <input type="text" placeholder="cantidad" class="input">
+    <h3> Moneda a convertir</h3>
+    <select class="select">
+        <option value="dolar"> Dolar</option>
+        <option value="euro"> Euro</option>
+       
+    </select>
+    <button class="buscar"> Buscar</button>
+   
+    <!-- renderizar graficas -->
+    <div class="grafica">
+        <canvas id="myChart">
+
+        </canvas>
+        </div>
+    <span class="spiner"></span>
+    
+  <div class="containerresultado">
+    <span class="multiplicacion"></span>
+    <span class="resultado"></span>
+</div>  
+</section>
+   
+
+    
+</main>
+<script src="./assest/js/index.js"></script>
+</body>
+
+
+</html>
